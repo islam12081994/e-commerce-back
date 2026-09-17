@@ -1,0 +1,12 @@
+export declare const generateId: () => string;
+export declare const generateOrderNumber: () => string;
+export declare const generateTransactionReference: () => string;
+export declare const generateResetToken: () => string;
+export declare const sanitize: (value: string) => string;
+export declare const sanitizeObject: (obj: Record<string, any>) => Record<string, any>;
+export declare const getClientIp: (req: any) => string;
+export declare const getClientUserAgent: (req: any) => string;
+export declare const isValidEmail: (email: string) => boolean;
+export declare const isValidObjectId: (id: string) => boolean;
+export declare const getErrorMessage: (err: unknown) => string;
+//# sourceMappingURL=helpers.d.ts.map
