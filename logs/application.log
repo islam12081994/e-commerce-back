@@ -1,0 +1,174 @@
+{"level":50,"time":"2026-09-17T07:45:39.941Z","service":"ecommerce-siem","err":"connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","msg":"MongoDB connection failed"}
+{"level":50,"time":"2026-09-17T07:45:39.941Z","service":"ecommerce-siem","err":"connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","msg":"Failed to start server"}
+{"level":30,"time":"2026-09-17T07:48:00.012Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T07:48:00.015Z","service":"ecommerce-siem","message":"Server started","port":3000,"env":"development"}
+{"level":30,"time":"2026-09-17T07:53:46.123Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T07:53:46.127Z","service":"ecommerce-siem","message":"Server started","port":3000,"env":"development"}
+{"level":30,"time":"2026-09-17T07:54:58.614Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T07:54:58.617Z","service":"ecommerce-siem","message":"Server started","port":3000,"env":"development"}
+{"level":30,"time":"2026-09-17T07:57:04.166Z","service":"ecommerce-siem","req":{"id":"req-1789631824086-a469c4a3","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":78,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T07:57:04.169Z","service":"ecommerce-siem","req":{"id":"req-1789631824099-72b87b24","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":70,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T07:57:04.218Z","service":"ecommerce-siem","req":{"id":"req-1789631824171-bef7d0d0","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":46,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T07:57:04.221Z","service":"ecommerce-siem","req":{"id":"req-1789631824176-c462d610","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":45,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:09:55.842Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T08:09:55.846Z","service":"ecommerce-siem","message":"Server started","port":3000,"env":"development"}
+{"level":30,"time":"2026-09-17T08:10:53.604Z","service":"ecommerce-siem","msg":"Connected to MongoDB for seeding"}
+{"level":30,"time":"2026-09-17T08:10:53.605Z","service":"ecommerce-siem","msg":"Wiping existing data..."}
+{"level":30,"time":"2026-09-17T08:10:54.459Z","service":"ecommerce-siem","msg":"Creating categories..."}
+{"level":30,"time":"2026-09-17T08:10:54.531Z","service":"ecommerce-siem","msg":"  + Category Electronics"}
+{"level":30,"time":"2026-09-17T08:10:54.576Z","service":"ecommerce-siem","msg":"  + Category Computers"}
+{"level":30,"time":"2026-09-17T08:10:54.625Z","service":"ecommerce-siem","msg":"  + Category Phones"}
+{"level":30,"time":"2026-09-17T08:10:54.671Z","service":"ecommerce-siem","msg":"  + Category Accessories"}
+{"level":30,"time":"2026-09-17T08:10:54.716Z","service":"ecommerce-siem","msg":"  + Category Gaming"}
+{"level":30,"time":"2026-09-17T08:10:54.768Z","service":"ecommerce-siem","msg":"  + Category Home"}
+{"level":30,"time":"2026-09-17T08:10:54.768Z","service":"ecommerce-siem","msg":"Creating products..."}
+{"level":30,"time":"2026-09-17T08:10:54.820Z","service":"ecommerce-siem","msg":"  + Product UltraBook Pro 14"}
+{"level":30,"time":"2026-09-17T08:10:54.864Z","service":"ecommerce-siem","msg":"  + Product Gaming PC Tower X9"}
+{"level":30,"time":"2026-09-17T08:10:54.911Z","service":"ecommerce-siem","msg":"  + Product 4K Monitor 27\""}
+{"level":30,"time":"2026-09-17T08:10:54.964Z","service":"ecommerce-siem","msg":"  + Product Mechanical Keyboard"}
+{"level":30,"time":"2026-09-17T08:10:55.009Z","service":"ecommerce-siem","msg":"  + Product Wireless Mouse"}
+{"level":30,"time":"2026-09-17T08:10:55.055Z","service":"ecommerce-siem","msg":"  + Product USB-C Dock Station"}
+{"level":30,"time":"2026-09-17T08:10:55.099Z","service":"ecommerce-siem","msg":"  + Product Webcam 1080 Pro"}
+{"level":30,"time":"2026-09-17T08:10:55.146Z","service":"ecommerce-siem","msg":"  + Product Laptop Stand Alu"}
+{"level":30,"time":"2026-09-17T08:10:55.191Z","service":"ecommerce-siem","msg":"  + Product Smartphone X1"}
+{"level":30,"time":"2026-09-17T08:10:55.236Z","service":"ecommerce-siem","msg":"  + Product Smartphone X1 Mini"}
+{"level":30,"time":"2026-09-17T08:10:55.284Z","service":"ecommerce-siem","msg":"  + Product Budget Phone M2"}
+{"level":30,"time":"2026-09-17T08:10:55.330Z","service":"ecommerce-siem","msg":"  + Product Power Bank 20000"}
+{"level":30,"time":"2026-09-17T08:10:55.383Z","service":"ecommerce-siem","msg":"  + Product Wireless Earbuds"}
+{"level":30,"time":"2026-09-17T08:10:55.429Z","service":"ecommerce-siem","msg":"  + Product Over-Ear Headphones"}
+{"level":30,"time":"2026-09-17T08:10:55.476Z","service":"ecommerce-siem","msg":"  + Product Bluetooth Speaker"}
+{"level":30,"time":"2026-09-17T08:10:55.520Z","service":"ecommerce-siem","msg":"  + Product Tablet S8"}
+{"level":30,"time":"2026-09-17T08:10:55.565Z","service":"ecommerce-siem","msg":"  + Product Smart Watch Series 5"}
+{"level":30,"time":"2026-09-17T08:10:55.611Z","service":"ecommerce-siem","msg":"  + Product E-Reader Paperwhite"}
+{"level":30,"time":"2026-09-17T08:10:55.664Z","service":"ecommerce-siem","msg":"  + Product Drone Camera Fly 4K"}
+{"level":30,"time":"2026-09-17T08:10:55.710Z","service":"ecommerce-siem","msg":"  + Product Action Camera Go 5"}
+{"level":30,"time":"2026-09-17T08:10:55.764Z","service":"ecommerce-siem","msg":"  + Product Gaming Console Z"}
+{"level":30,"time":"2026-09-17T08:10:55.809Z","service":"ecommerce-siem","msg":"  + Product Gaming Console Z Slim"}
+{"level":30,"time":"2026-09-17T08:10:55.871Z","service":"ecommerce-siem","msg":"  + Product Pro Controller Elite"}
+{"level":30,"time":"2026-09-17T08:10:55.915Z","service":"ecommerce-siem","msg":"  + Product Mechanical Gaming Pad"}
+{"level":30,"time":"2026-09-17T08:10:55.960Z","service":"ecommerce-siem","msg":"  + Product Gaming Headset 7.1"}
+{"level":30,"time":"2026-09-17T08:10:56.012Z","service":"ecommerce-siem","msg":"  + Product Smart Hub Home"}
+{"level":30,"time":"2026-09-17T08:10:56.057Z","service":"ecommerce-siem","msg":"  + Product Smart Bulb Color 2-Pack"}
+{"level":30,"time":"2026-09-17T08:10:56.108Z","service":"ecommerce-siem","msg":"  + Product Robot Vacuum V8"}
+{"level":30,"time":"2026-09-17T08:10:56.174Z","service":"ecommerce-siem","msg":"  + Product Air Purifier Pro"}
+{"level":30,"time":"2026-09-17T08:10:56.218Z","service":"ecommerce-siem","msg":"  + Product Smart Doorbell HD"}
+{"level":30,"time":"2026-09-17T08:10:56.218Z","service":"ecommerce-siem","msg":"Creating users..."}
+{"level":30,"time":"2026-09-17T08:10:57.384Z","service":"ecommerce-siem","msg":"  + User admin@example.com (ADMIN)"}
+{"level":30,"time":"2026-09-17T08:10:58.546Z","service":"ecommerce-siem","msg":"  + User alice@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:10:59.681Z","service":"ecommerce-siem","msg":"  + User bob@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:11:00.766Z","service":"ecommerce-siem","msg":"  + User john@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:11:00.766Z","service":"ecommerce-siem","msg":"Creating demo orders..."}
+{"level":30,"time":"2026-09-17T08:11:00.874Z","service":"ecommerce-siem","msg":"  + Order 6aaba0945686950c8ddb24ed for alice@example.com (DELIVERED)"}
+{"level":30,"time":"2026-09-17T08:11:00.966Z","service":"ecommerce-siem","msg":"  + Order 6aaba0945686950c8ddb24f4 for alice@example.com (SHIPPED)"}
+{"level":30,"time":"2026-09-17T08:11:01.080Z","service":"ecommerce-siem","msg":"  + Order 6aaba0945686950c8ddb24f9 for alice@example.com (PENDING)"}
+{"level":30,"time":"2026-09-17T08:11:01.178Z","service":"ecommerce-siem","msg":"  + Order 6aaba0955686950c8ddb24ff for bob@example.com (DELIVERED)"}
+{"level":30,"time":"2026-09-17T08:11:01.288Z","service":"ecommerce-siem","msg":"  + Order 6aaba0955686950c8ddb2505 for bob@example.com (PROCESSING)"}
+{"level":30,"time":"2026-09-17T08:11:01.384Z","service":"ecommerce-siem","msg":"  + Order 6aaba0955686950c8ddb250b for bob@example.com (PENDING)"}
+{"level":30,"time":"2026-09-17T08:11:01.478Z","service":"ecommerce-siem","msg":"  + Order 6aaba0955686950c8ddb2511 for bob@example.com (CANCELLED)"}
+{"level":30,"time":"2026-09-17T08:11:01.478Z","service":"ecommerce-siem","msg":"Adding initial security events..."}
+{"level":30,"time":"2026-09-17T08:11:01.728Z","service":"ecommerce-siem","message":"Seed completed","counts":{"categories":6,"products":30,"users":4,"orders":7}}
+{"level":30,"time":"2026-09-17T08:12:06.278Z","service":"ecommerce-siem","req":{"id":"req-1789632726181-84440c5d","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":97,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:12:06.334Z","service":"ecommerce-siem","req":{"id":"req-1789632726157-bcc94a8f","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":176,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:12:35.791Z","service":"ecommerce-siem","req":{"id":"req-1789632755789-502844d1","method":"GET","url":"/api/health","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":2,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:12:35.896Z","service":"ecommerce-siem","req":{"id":"req-1789632755840-f0edce49","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":56,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:12:36.003Z","service":"ecommerce-siem","req":{"id":"req-1789632755898-b540602b","method":"GET","url":"/api/products?limit=3","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":105,"msg":"request completed"}
+{"level":40,"time":"2026-09-17T08:12:42.134Z","service":"ecommerce-siem","req":{"id":"req-1789632761157-3d3af0f1","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":401},"responseTime":977,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:12:42.404Z","service":"ecommerce-siem","req":{"id":"req-1789632762304-b1d27673","method":"GET","url":"/api/products?limit=3","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":100,"msg":"request completed"}
+{"level":40,"time":"2026-09-17T08:12:42.517Z","service":"ecommerce-siem","req":{"id":"req-1789632762465-b271e67d","method":"GET","url":"/api/admin/dashboard","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":401},"responseTime":51,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:13:18.007Z","service":"ecommerce-siem","msg":"Connected to MongoDB for seeding"}
+{"level":30,"time":"2026-09-17T08:13:18.008Z","service":"ecommerce-siem","msg":"Wiping existing data..."}
+{"level":30,"time":"2026-09-17T08:13:18.846Z","service":"ecommerce-siem","msg":"Creating categories..."}
+{"level":30,"time":"2026-09-17T08:13:18.898Z","service":"ecommerce-siem","msg":"  + Category Electronics"}
+{"level":30,"time":"2026-09-17T08:13:18.945Z","service":"ecommerce-siem","msg":"  + Category Computers"}
+{"level":30,"time":"2026-09-17T08:13:18.997Z","service":"ecommerce-siem","msg":"  + Category Phones"}
+{"level":30,"time":"2026-09-17T08:13:19.042Z","service":"ecommerce-siem","msg":"  + Category Accessories"}
+{"level":30,"time":"2026-09-17T08:13:19.087Z","service":"ecommerce-siem","msg":"  + Category Gaming"}
+{"level":30,"time":"2026-09-17T08:13:19.131Z","service":"ecommerce-siem","msg":"  + Category Home"}
+{"level":30,"time":"2026-09-17T08:13:19.131Z","service":"ecommerce-siem","msg":"Creating products..."}
+{"level":30,"time":"2026-09-17T08:13:19.178Z","service":"ecommerce-siem","msg":"  + Product UltraBook Pro 14"}
+{"level":30,"time":"2026-09-17T08:13:19.229Z","service":"ecommerce-siem","msg":"  + Product Gaming PC Tower X9"}
+{"level":30,"time":"2026-09-17T08:13:19.275Z","service":"ecommerce-siem","msg":"  + Product 4K Monitor 27\""}
+{"level":30,"time":"2026-09-17T08:13:19.323Z","service":"ecommerce-siem","msg":"  + Product Mechanical Keyboard"}
+{"level":30,"time":"2026-09-17T08:13:19.370Z","service":"ecommerce-siem","msg":"  + Product Wireless Mouse"}
+{"level":30,"time":"2026-09-17T08:13:19.419Z","service":"ecommerce-siem","msg":"  + Product USB-C Dock Station"}
+{"level":30,"time":"2026-09-17T08:13:19.464Z","service":"ecommerce-siem","msg":"  + Product Webcam 1080 Pro"}
+{"level":30,"time":"2026-09-17T08:13:19.509Z","service":"ecommerce-siem","msg":"  + Product Laptop Stand Alu"}
+{"level":30,"time":"2026-09-17T08:13:19.553Z","service":"ecommerce-siem","msg":"  + Product Smartphone X1"}
+{"level":30,"time":"2026-09-17T08:13:19.604Z","service":"ecommerce-siem","msg":"  + Product Smartphone X1 Mini"}
+{"level":30,"time":"2026-09-17T08:13:19.653Z","service":"ecommerce-siem","msg":"  + Product Budget Phone M2"}
+{"level":30,"time":"2026-09-17T08:13:19.697Z","service":"ecommerce-siem","msg":"  + Product Power Bank 20000"}
+{"level":30,"time":"2026-09-17T08:13:19.745Z","service":"ecommerce-siem","msg":"  + Product Wireless Earbuds"}
+{"level":30,"time":"2026-09-17T08:13:19.789Z","service":"ecommerce-siem","msg":"  + Product Over-Ear Headphones"}
+{"level":30,"time":"2026-09-17T08:13:19.840Z","service":"ecommerce-siem","msg":"  + Product Bluetooth Speaker"}
+{"level":30,"time":"2026-09-17T08:13:19.885Z","service":"ecommerce-siem","msg":"  + Product Tablet S8"}
+{"level":30,"time":"2026-09-17T08:13:19.929Z","service":"ecommerce-siem","msg":"  + Product Smart Watch Series 5"}
+{"level":30,"time":"2026-09-17T08:13:19.973Z","service":"ecommerce-siem","msg":"  + Product E-Reader Paperwhite"}
+{"level":30,"time":"2026-09-17T08:13:20.023Z","service":"ecommerce-siem","msg":"  + Product Drone Camera Fly 4K"}
+{"level":30,"time":"2026-09-17T08:13:20.067Z","service":"ecommerce-siem","msg":"  + Product Action Camera Go 5"}
+{"level":30,"time":"2026-09-17T08:13:20.112Z","service":"ecommerce-siem","msg":"  + Product Gaming Console Z"}
+{"level":30,"time":"2026-09-17T08:13:20.161Z","service":"ecommerce-siem","msg":"  + Product Gaming Console Z Slim"}
+{"level":30,"time":"2026-09-17T08:13:20.217Z","service":"ecommerce-siem","msg":"  + Product Pro Controller Elite"}
+{"level":30,"time":"2026-09-17T08:13:20.262Z","service":"ecommerce-siem","msg":"  + Product Mechanical Gaming Pad"}
+{"level":30,"time":"2026-09-17T08:13:20.307Z","service":"ecommerce-siem","msg":"  + Product Gaming Headset 7.1"}
+{"level":30,"time":"2026-09-17T08:13:20.361Z","service":"ecommerce-siem","msg":"  + Product Smart Hub Home"}
+{"level":30,"time":"2026-09-17T08:13:20.406Z","service":"ecommerce-siem","msg":"  + Product Smart Bulb Color 2-Pack"}
+{"level":30,"time":"2026-09-17T08:13:20.460Z","service":"ecommerce-siem","msg":"  + Product Robot Vacuum V8"}
+{"level":30,"time":"2026-09-17T08:13:20.508Z","service":"ecommerce-siem","msg":"  + Product Air Purifier Pro"}
+{"level":30,"time":"2026-09-17T08:13:20.552Z","service":"ecommerce-siem","msg":"  + Product Smart Doorbell HD"}
+{"level":30,"time":"2026-09-17T08:13:20.552Z","service":"ecommerce-siem","msg":"Creating users..."}
+{"level":30,"time":"2026-09-17T08:13:21.106Z","service":"ecommerce-siem","msg":"  + User admin@example.com (ADMIN)"}
+{"level":30,"time":"2026-09-17T08:13:21.778Z","service":"ecommerce-siem","msg":"  + User alice@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:13:22.396Z","service":"ecommerce-siem","msg":"  + User bob@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:13:22.952Z","service":"ecommerce-siem","msg":"  + User john@example.com (CUSTOMER)"}
+{"level":30,"time":"2026-09-17T08:13:22.952Z","service":"ecommerce-siem","msg":"Creating demo orders..."}
+{"level":30,"time":"2026-09-17T08:13:23.050Z","service":"ecommerce-siem","msg":"  + Order 6aaba12253c192fc07f0279f for alice@example.com (DELIVERED)"}
+{"level":30,"time":"2026-09-17T08:13:23.141Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027a6 for alice@example.com (SHIPPED)"}
+{"level":30,"time":"2026-09-17T08:13:23.240Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027ab for alice@example.com (PENDING)"}
+{"level":30,"time":"2026-09-17T08:13:23.335Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027b1 for bob@example.com (DELIVERED)"}
+{"level":30,"time":"2026-09-17T08:13:23.430Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027b7 for bob@example.com (PROCESSING)"}
+{"level":30,"time":"2026-09-17T08:13:23.527Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027bd for bob@example.com (PENDING)"}
+{"level":30,"time":"2026-09-17T08:13:23.626Z","service":"ecommerce-siem","msg":"  + Order 6aaba12353c192fc07f027c3 for bob@example.com (CANCELLED)"}
+{"level":30,"time":"2026-09-17T08:13:23.627Z","service":"ecommerce-siem","msg":"Adding initial security events..."}
+{"level":30,"time":"2026-09-17T08:13:23.851Z","service":"ecommerce-siem","message":"Seed completed","counts":{"categories":6,"products":30,"users":4,"orders":7}}
+{"level":30,"time":"2026-09-17T08:13:36.084Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T08:13:36.087Z","service":"ecommerce-siem","message":"Server started","port":3000,"env":"development"}
+{"level":30,"time":"2026-09-17T08:14:13.115Z","service":"ecommerce-siem","req":{"id":"req-1789632852187-ef6675ab","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":927,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:13.636Z","service":"ecommerce-siem","req":{"id":"req-1789632853136-5234b43f","method":"GET","url":"/api/admin/dashboard","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":500,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:13.744Z","service":"ecommerce-siem","req":{"id":"req-1789632853646-a9deb429","method":"GET","url":"/api/orders","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":98,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:14.564Z","service":"ecommerce-siem","req":{"id":"req-1789632853751-50cb7956","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":813,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:14.660Z","service":"ecommerce-siem","req":{"id":"req-1789632854566-6529c938","method":"GET","url":"/api/orders","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":94,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:20.567Z","service":"ecommerce-siem","req":{"id":"req-1789632859590-02b54e6e","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":977,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:20.742Z","service":"ecommerce-siem","req":{"id":"req-1789632860608-d1c3e76c","method":"GET","url":"/api/admin/orders?limit=100","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":133,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:20.852Z","service":"ecommerce-siem","req":{"id":"req-1789632860749-cd0da83c","method":"GET","url":"/api/admin/security-events?limit=100","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":102,"msg":"request completed"}
+{"level":40,"time":"2026-09-17T08:14:20.909Z","service":"ecommerce-siem","req":{"id":"req-1789632860854-3ad3ce4c","method":"GET","url":"/api/admin/users","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":404},"responseTime":55,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:26.203Z","service":"ecommerce-siem","req":{"id":"req-1789632865462-09ab27fc","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":740,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:26.320Z","service":"ecommerce-siem","req":{"id":"req-1789632866223-0165a264","method":"GET","url":"/api/users","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":96,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:14:26.374Z","service":"ecommerce-siem","req":{"id":"req-1789632866327-2bf32246","method":"GET","url":"/api/cart","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.22621.3672"},"res":{"statusCode":200},"responseTime":47,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:18:54.424Z","service":"ecommerce-siem","message":"Connected to MongoDB","uri":"cluster0.omwrcw6.mongodb.net/"}
+{"level":30,"time":"2026-09-17T08:19:13.396Z","service":"ecommerce-siem","req":{"id":"req-1789633153316-efbef1d8","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":80,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:13.448Z","service":"ecommerce-siem","req":{"id":"req-1789633153309-285c1805","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":139,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:13.459Z","service":"ecommerce-siem","req":{"id":"req-1789633153400-a27b56cb","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":59,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:13.567Z","service":"ecommerce-siem","req":{"id":"req-1789633153453-a9274bc9","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":113,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:20.493Z","service":"ecommerce-siem","req":{"id":"req-1789633160401-44bc069f","method":"GET","url":"/api/products/6aaba11f53c192fc07f02755","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":92,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:20.585Z","service":"ecommerce-siem","req":{"id":"req-1789633160497-132d0dfd","method":"GET","url":"/api/products/6aaba11f53c192fc07f02755","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":88,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:20.589Z","service":"ecommerce-siem","req":{"id":"req-1789633160499-368082c2","method":"GET","url":"/api/products?category=6aaba11e53c192fc07f02747&limit=4","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":90,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:19:20.685Z","service":"ecommerce-siem","req":{"id":"req-1789633160593-7227a0af","method":"GET","url":"/api/products?category=6aaba11e53c192fc07f02747&limit=4","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":92,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.350Z","service":"ecommerce-siem","req":{"id":"req-1789633217846-8b61239f","method":"POST","url":"/api/auth/register","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":201},"responseTime":504,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.412Z","service":"ecommerce-siem","req":{"id":"req-1789633218361-4497e97b","method":"GET","url":"/api/cart","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":51,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.443Z","service":"ecommerce-siem","req":{"id":"req-1789633218385-149a97fe","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":57,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.506Z","service":"ecommerce-siem","req":{"id":"req-1789633218382-af5766c1","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":124,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.514Z","service":"ecommerce-siem","req":{"id":"req-1789633218447-0aa46f62","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":66,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:18.614Z","service":"ecommerce-siem","req":{"id":"req-1789633218511-06ed3431","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":103,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:39.283Z","service":"ecommerce-siem","req":{"id":"req-1789633237748-3f3e2666","method":"POST","url":"/api/auth/login","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":1535,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:39.773Z","service":"ecommerce-siem","req":{"id":"req-1789633239301-77479e9d","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":471,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:40.285Z","service":"ecommerce-siem","req":{"id":"req-1789633239303-099f7283","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":982,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:40.287Z","service":"ecommerce-siem","req":{"id":"req-1789633239777-c95cdf6f","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":510,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:40.934Z","service":"ecommerce-siem","req":{"id":"req-1789633240290-24775bc9","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":644,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:45.304Z","service":"ecommerce-siem","req":{"id":"req-1789633244987-28bf8d8b","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":317,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:45.637Z","service":"ecommerce-siem","req":{"id":"req-1789633244989-a165835b","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":648,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:45.639Z","service":"ecommerce-siem","req":{"id":"req-1789633245309-745653fb","method":"GET","url":"/api/categories","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":330,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:46.353Z","service":"ecommerce-siem","req":{"id":"req-1789633245642-252033e0","method":"GET","url":"/api/products?limit=8&sort=rating_desc","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":711,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:49.227Z","service":"ecommerce-siem","req":{"id":"req-1789633248351-04ef34ab","method":"POST","url":"/api/cart/items","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":876,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:57.756Z","service":"ecommerce-siem","req":{"id":"req-1789633257270-ea76af97","method":"PUT","url":"/api/cart/items/6aaba11f53c192fc07f02755","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":486,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:58.723Z","service":"ecommerce-siem","req":{"id":"req-1789633258292-6be0af0a","method":"PUT","url":"/api/cart/items/6aaba11f53c192fc07f02755","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":430,"msg":"request completed"}
+{"level":30,"time":"2026-09-17T08:20:59.585Z","service":"ecommerce-siem","req":{"id":"req-1789633259499-612dfdc1","method":"PUT","url":"/api/cart/items/6aaba11f53c192fc07f02755","ip":"unknown","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"},"res":{"statusCode":200},"responseTime":86,"msg":"request completed"}

@@ -39,7 +39,6 @@ const categorySchema = new mongoose_1.Schema({
     slug: { type: String, required: true, unique: true, lowercase: true },
     description: { type: String, default: '' },
 }, { timestamps: true });
-categorySchema.index({ slug: 1 });
 const Category = mongoose_1.default.model('Category', categorySchema);
 exports.default = Category;
 //# sourceMappingURL=Category.js.map

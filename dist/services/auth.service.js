@@ -10,7 +10,6 @@ const jwt_1 = require("../utils/jwt");
 const auditLogger_1 = require("../utils/auditLogger");
 const SecurityEvent_1 = require("../models/SecurityEvent");
 const errorHandler_1 = require("../middleware/errorHandler");
-const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const resetTokens = new Map();
 const registerUser = async (input) => {
     const existing = await User_1.default.findOne({ email: input.email.toLowerCase() });
@@ -124,8 +123,7 @@ const resetPassword = async (token, newPassword, req) => {
         resetTokens.delete(hashedToken);
         throw new errorHandler_1.AppError('User not found', 404, errorHandler_1.AppErrorCode.NOT_FOUND);
     }
-    const salt = await bcryptjs_1.default.genSalt(12);
-    user.passwordHash = await bcryptjs_1.default.hash(newPassword, salt);
+    user.passwordHash = newPassword;
     await user.save();
     resetTokens.delete(hashedToken);
     await (0, auditLogger_1.createAuditLog)({
@@ -154,8 +152,7 @@ const changePassword = async (userId, currentPassword, newPassword, req) => {
         });
         throw new errorHandler_1.AppError('Current password is incorrect', 400, errorHandler_1.AppErrorCode.BAD_REQUEST);
     }
-    const salt = await bcryptjs_1.default.genSalt(12);
-    user.passwordHash = await bcryptjs_1.default.hash(newPassword, salt);
+    user.passwordHash = newPassword;
     await user.save();
     await (0, auditLogger_1.createAuditLog)({
         event: SecurityEvent_1.SecurityEventType.PASSWORD_CHANGED,

@@ -4,7 +4,6 @@ import { generateToken, verifyToken, TokenPayload } from '../utils/jwt';
 import { createAuditLog } from '../utils/auditLogger';
 import { SecurityEventType } from '../models/SecurityEvent';
 import { AppError, AppErrorCode } from '../middleware/errorHandler';
-import bcrypt from 'bcryptjs';
 
 interface RegisterInput {
   firstName: string;
@@ -151,8 +150,7 @@ export const resetPassword = async (token: string, newPassword: string, req?: an
     throw new AppError('User not found', 404, AppErrorCode.NOT_FOUND);
   }
 
-  const salt = await bcrypt.genSalt(12);
-  user.passwordHash = await bcrypt.hash(newPassword, salt);
+  user.passwordHash = newPassword;
   await user.save();
   resetTokens.delete(hashedToken);
 
@@ -189,8 +187,7 @@ export const changePassword = async (
     throw new AppError('Current password is incorrect', 400, AppErrorCode.BAD_REQUEST);
   }
 
-  const salt = await bcrypt.genSalt(12);
-  user.passwordHash = await bcrypt.hash(newPassword, salt);
+  user.passwordHash = newPassword;
   await user.save();
 
   await createAuditLog({

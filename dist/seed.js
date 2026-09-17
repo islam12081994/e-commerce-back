@@ -37,7 +37,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
-const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const config_1 = __importDefault(require("./config"));
 const User_1 = __importDefault(require("./models/User"));
 const Product_1 = __importDefault(require("./models/Product"));
@@ -185,13 +184,11 @@ const seed = async () => {
     logger_1.default.info('Creating users...');
     const users = {};
     for (const u of usersData) {
-        const salt = await bcryptjs_1.default.genSalt(12);
-        const passwordHash = await bcryptjs_1.default.hash(u.password, salt);
         const user = await User_1.default.create({
             firstName: u.firstName,
             lastName: u.lastName,
             email: u.email,
-            passwordHash,
+            passwordHash: u.password,
             role: u.role,
             phone: u.phone,
             isActive: true,

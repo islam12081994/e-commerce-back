@@ -54,7 +54,6 @@ const userSchema = new mongoose_1.Schema({
     isActive: { type: Boolean, default: true },
     lastLoginAt: { type: Date },
 }, { timestamps: true });
-userSchema.index({ email: 1 });
 userSchema.pre('save', async function (next) {
     if (!this.isModified('passwordHash'))
         return next();

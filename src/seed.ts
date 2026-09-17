@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import bcrypt from 'bcryptjs';
 import config from './config';
 import User from './models/User';
 import Product from './models/Product';
@@ -159,13 +158,11 @@ const seed = async (): Promise<void> => {
   appLogger.info('Creating users...');
   const users: any = {};
   for (const u of usersData) {
-    const salt = await bcrypt.genSalt(12);
-    const passwordHash = await bcrypt.hash(u.password, salt);
     const user = await User.create({
       firstName: u.firstName,
       lastName: u.lastName,
       email: u.email,
-      passwordHash,
+      passwordHash: u.password,
       role: u.role,
       phone: u.phone,
       isActive: true,
